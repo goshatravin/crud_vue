@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UsersView Renders the component 1`] = `
+<div class="home">
+  <vcreatuser-stub></vcreatuser-stub>
+  <vuserslist-stub></vuserslist-stub>
+</div>
+`;
