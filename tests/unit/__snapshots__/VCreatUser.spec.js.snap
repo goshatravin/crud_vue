@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VCreatUser Renders the component 1`] = `
+<div class="home">
+  <div class="user-profile___btn_close"><input type="submit" value="Close" class="close__input"></div>
+  <div class="user-profile__avatar">
+    <p>Your picture</p> <img src="#" alt="" class="avatar__src">
+  </div>
+  <div class="user-profile__name">
+    <p>Your name</p> <input type="text" class="name__input">
+  </div>
+  <div class="user-profile__position">
+    <p>Your position</p> <input type="text" class="possition__input">
+  </div>
+  <div class="user-profile__address">
+    <p>Your address</p> <input type="text" class="address__input">
+  </div>
+  <div class="user-profile__company">
+    <p>Your company</p> <input type="text" class="company__input">
+  </div>
+  <div class="user-profile___btn_save"><input type="submit" value="Save" class="save__input"></div>
+</div>
+`;

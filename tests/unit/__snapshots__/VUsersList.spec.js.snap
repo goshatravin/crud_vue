@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VUsersList Renders the component 1`] = `
+<div class="home">
+  <div class="new-user"><button></button></div>
+</div>
+`;

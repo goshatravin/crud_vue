@@ -1,13 +1,22 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
-import state from '@/store/state';
-import mutations from '@/store/mutations';
-import actions from '@/store/actions';
+import newUser from '@/store/modules/newUser';
+
 
 Vue.use(Vuex);
 
 export default new Vuex.Store({
-    state,
-    mutations,
-    actions,
+    modules: {
+        newUser,
+    },
+    state: {},
+    mutations: {},
+    actions: {},
+    plugins: [(store) => {
+        store.subscribeAction((action, state) => {
+            console.log('Action Type: ', action.type);
+            console.log('Action Payload: ', action.payload);
+            console.log('Current State: ', state);
+        });
+    }],
 });

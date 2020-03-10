@@ -1,12 +1,17 @@
 <template>
     <div id="app">
+        <UsersView/>
     </div>
 </template>
 
 <script>
+import UsersView from '@/views/UsersView.vue';
 
 export default {
     name: 'App',
+    components: {
+        UsersView,
+    },
 };
 </script>
 
